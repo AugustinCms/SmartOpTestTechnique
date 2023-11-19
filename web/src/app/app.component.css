@@ -1,0 +1,42 @@
+.styled-table {
+  display: table;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+  .styled-table th, .styled-table td {
+    border: 1px solid #dbd8f7;
+    padding: 12px;
+  }
+
+  .table-header {
+    background-color: #4c6faf;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .even-row {
+    background-color: #f2f2f2;
+  }
+
+  .searchBar {
+    height: 46px;
+    border-radius: 48px;
+    border: 0.5px solid rgb(197, 197, 197);
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-right: 40px;
+    padding-left: 10px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    display: block;
+  }

@@ -1,0 +1,23 @@
+<input class="searchBar" type="text" [formControl]="searchControl" placeholder="Search Surgeons" />
+<table class="styled-table">
+  <thead>
+    <tr>
+      <th class="table-header">Surgeon</th>
+      <th class="table-header">Operation Count</th>
+      <th class="table-header">Favorite Anesthesiste</th>
+      <th class="table-header">Favorite Nurse</th>
+      <th class="table-header">Favorite Room</th>
+      <th class="table-header">Favorite Intervention</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let surgeon of surgeons; let i = index" [class.even-row]="i % 2 === 0">
+      <td>{{surgeon.surgeon}}</td>
+      <td>{{surgeon.operationCount}}</td>
+      <td>{{surgeon.favoriteAnesthesiste}}</td>
+      <td>{{surgeon.favoriteNurse}}</td>
+      <td>{{surgeon.favoriteRoom}}</td>
+      <td>{{surgeon.favoriteIntervention}}</td>
+    </tr>
+  </tbody>
+</table>
