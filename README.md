@@ -17,6 +17,6 @@
 
 ### build with npm :
 `cd api && npm i`<br />
-`npm start`<br />
-`cd ../web/ && npm i`<br />
+`npm start`<br /><br />
+`cd web/ && npm i`<br />
 `npm start`
